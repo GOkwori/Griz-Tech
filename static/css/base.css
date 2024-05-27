@@ -72,6 +72,16 @@ body {
   border: 1px solid black !important;
 }
 
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
