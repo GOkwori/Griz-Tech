@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,900&display=swap");
-
 html {
   height: 100%;
 }
@@ -38,6 +36,20 @@ body {
 .btn-black {
   background: black;
   color: white;
+}
+
+.btn-outline-black {
+  background: white;
+  color: black !important;
+  /* use important to override link colors for <a> elements */
+  border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+  background: black;
+  color: white !important;
 }
 
 .shop-now-button:hover,
@@ -85,7 +97,9 @@ a.category-badge>span.badge:hover {
   right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
   cursor: pointer;
 }
 
