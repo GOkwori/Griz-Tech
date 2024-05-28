@@ -1,20 +1,18 @@
-{% extends "base.html" %} 
-{% load static %} 
+{% extends "base.html" %}
+{% load static %}
 
-{% block page-header %}
-<div class="container header-container">
-    <div class="row">
-        <div class="col">
-
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
         </div>
     </div>
-</div>
 {% endblock %}
 
 {% block content %}
-<div class="overlay"></div>
+    <div class="overlay"></div>
     <div class="container-fluid">
-        <div class="row">
+        <div class="row product-header">
             <div class="col text-center mt-3">
                 <h2 class="logo-font">Products</h2>
                 {% for c in current_categories %}
@@ -157,5 +155,4 @@
             }
         })
     </script>
-
 {% endblock %}
