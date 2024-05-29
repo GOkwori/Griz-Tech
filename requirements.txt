@@ -3,10 +3,12 @@ certifi==2024.2.2
 cffi==1.16.0
 charset-normalizer==3.3.2
 cryptography==42.0.7
-Django==3.2.25
+Django==5.0.6
 django-allauth==0.63.2
+django-crispy-forms==2.1
 idna==3.7
 oauthlib==3.2.2
+pillow==10.3.0
 pycparser==2.22
 PyJWT==2.8.0
 pytz==2024.1
