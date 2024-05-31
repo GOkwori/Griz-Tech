@@ -1,0 +1,1 @@
+web: gunicorn griz-tech.wsgi:application
