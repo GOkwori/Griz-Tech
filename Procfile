@@ -1,1 +1,1 @@
-web: gunicorn griz-tech.wsgi:application
+web: gunicorn griz_tech.wsgi:application
